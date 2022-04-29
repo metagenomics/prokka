@@ -1294,6 +1294,10 @@ for my $sid (@seq) {
 }
 msg("Assigned $num_lt locus_tags to CDS and RNA features.");
 
+sub tsv_line {
+  return join("\t", @_)."\n";
+}
+
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 # Write it all out!
 
