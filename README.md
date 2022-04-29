@@ -5,6 +5,12 @@
 
 # Prokka: rapid prokaryotic genome annotation
 
+## This fork
+
+This fork integrates the following pull request, to allow the annotation of partial genes within prokka 1.16.4:
+
+https://github.com/tseemann/prokka/pull/219/
+
 ## Introduction
 
 Whole genome annotation is the process of identifying features of interest
@@ -229,6 +235,7 @@ $HOME/prokka/bin/prokka --setupdb
       --proteins [X]    Fasta file of trusted proteins to first annotate from (default '')
       --hmms [X]        Trusted HMM to first annotate from (default '')
       --metagenome      Improve gene predictions for highly fragmented genomes (default OFF)
+      --partialgenes    Allow genes to run off edges, yielding incomplete genes (no closed ends option in prodigal) (default OFF)
       --rawproduct      Do not clean up /product annotation (default OFF)
     Computation:
       --fast            Fast mode - skip CDS /product searching (default OFF)
