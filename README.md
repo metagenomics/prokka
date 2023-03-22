@@ -11,6 +11,8 @@ This fork integrates the following pull request, to allow the annotation of part
 
 https://github.com/tseemann/prokka/pull/219/
 
+In addition tbl2asn is skipped(!) per default, use the option --tbl2asn to run it.
+
 ## Introduction
 
 Whole genome annotation is the process of identifying features of interest
