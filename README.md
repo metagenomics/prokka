@@ -7,11 +7,22 @@
 
 ## This fork
 
+### Partial Genes
+
 This fork integrates the following pull request, to allow the annotation of partial genes within prokka 1.16.4:
 
 https://github.com/tseemann/prokka/pull/219/
 
+### tbl2asn skipped
+
 In addition tbl2asn is skipped(!) per default, use the option --tbl2asn to run it.
+
+### Prodigal Raw output
+
+This fork allows to output the prodigal raw gff output by providing the `--prodigalraw` parameter.
+
+This has been done according to the proposed changes suggested in the following issue:
+https://github.com/tseemann/prokka/issues/474
 
 ## Introduction
 
